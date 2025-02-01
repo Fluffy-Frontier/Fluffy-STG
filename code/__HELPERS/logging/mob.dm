@@ -16,6 +16,9 @@
 		stack_trace("Empty message")
 		return
 
+	if(!mind)
+		return
+
 	// Cannot use the list as a map if the key is a number, so we stringify it (thank you BYOND)
 	var/smessage_type = num2text(message_type, MAX_BITFLAG_DIGITS)
 	var/datum/player_details/client_details = client?.player_details
