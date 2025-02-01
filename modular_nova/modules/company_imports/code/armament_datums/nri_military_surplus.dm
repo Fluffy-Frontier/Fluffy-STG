@@ -98,9 +98,9 @@
 	item_type = /obj/item/gun/ballistic/revolver/shotgun_revolver
 	cost = PAYCHECK_COMMAND * 6
 
-/datum/armament_entry/company_import/nri_surplus/firearm/zashch
+/* /datum/armament_entry/company_import/nri_surplus/firearm/zashch
 	item_type = /obj/item/gun/ballistic/automatic/pistol/zashch
-	cost = PAYCHECK_COMMAND * 6
+	cost = PAYCHECK_COMMAND * 6 */ // FLUFFY FRONTIER REMOVAL - NRI WEAPONS REBALANCE
 
 /datum/armament_entry/company_import/nri_surplus/firearm/plasma_thrower
 	item_type = /obj/item/gun/ballistic/automatic/pistol/plasma_thrower
@@ -132,8 +132,8 @@
 	subcategory = "Firearm Magazines"
 	cost = PAYCHECK_CREW
 
-/datum/armament_entry/company_import/nri_surplus/firearm_ammo/zashch
-	item_type = /obj/item/ammo_box/magazine/zashch/spawns_empty
+/* /datum/armament_entry/company_import/nri_surplus/firearm_ammo/zashch
+	item_type = /obj/item/ammo_box/magazine/zashch/spawns_empty */ // FLUFFY FRONTIER REMOVAL - NRI WEAPONS REBALANCE
 
 /datum/armament_entry/company_import/nri_surplus/firearm_ammo/plasma_battery
 	item_type = /obj/item/ammo_box/magazine/recharge/plasma_battery
