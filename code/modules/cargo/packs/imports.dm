@@ -96,6 +96,22 @@
 	)
 	crate_name = "putrid dumpster"
 	crate_type = /obj/structure/closet/crate/trashcart
+
+/datum/supply_pack/imports/shells
+	name = "Lethal Shotgun Shell Box Crate"
+	desc = "Contains three boxes of buckshot shotgun shells. \
+		Due to Nanotrasen's failure to secure exclusive manufacturing rights \
+		during the Spinward Hunting and Shooting policy hearings, this import \
+		is heavily taxed, despite being 'legal'. I hope the price tag is worth it."
+	cost = CARGO_CRATE_VALUE * 10
+	access = ACCESS_ARMORY
+	access_view = ACCESS_ARMORY
+	contains = list(
+		/obj/item/storage/box/lethalshot = 3,
+	)
+	crate_name = "shotgun shell crate"
+	crate_type = /obj/structure/closet/crate/secure/weapon
+
 /* NOVA EDIT REMOVAL BEGIN - any person shouldn't have an oneshot hitscan gun just because they have emag
 /datum/supply_pack/imports/error
 	name = "NULL_ENTRY"
@@ -104,6 +120,7 @@
 	hidden = TRUE
 	contains = list(/obj/item/book/granter/crafting_recipe/regal_condor)
 NOVA EDIT REMOVAL END */
+
 /datum/supply_pack/imports/mafia
 	name = "Cosa Nostra Starter Pack"
 	desc = "This crate contains everything you need to set up your own ethnicity-based racketeering operation."

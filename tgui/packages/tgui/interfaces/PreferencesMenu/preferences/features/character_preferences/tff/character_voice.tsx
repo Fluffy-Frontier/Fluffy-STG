@@ -1,3 +1,4 @@
+import { useBackend } from 'tgui/backend';
 import { Button, Stack } from 'tgui-core/components';
 
 import {
@@ -14,6 +15,8 @@ import { FeatureDropdownInput } from '../../dropdowns';
 const FeatureBlooperDropdownInput = (
   props: FeatureValueProps<string, string, FeatureChoicedServerData>,
 ) => {
+  const { act } = useBackend();
+
   return (
     <Stack>
       <Stack.Item grow>
@@ -22,7 +25,7 @@ const FeatureBlooperDropdownInput = (
       <Stack.Item>
         <Button
           onClick={() => {
-            props.act('play_blooper');
+            act('play_blooper');
           }}
           icon="play"
           width="100%"
