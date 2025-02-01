@@ -9033,6 +9033,8 @@
 #include "tff_modular\modules\toys\code\plushes.dm"
 #include "tff_modular\modules\toys\code\soulmate_plushes.dm"
 #include "tff_modular\modules\uplink_item\code\guns.dm"
+#include "tff_modular\modules\uplink_item\code\categories\device_tools.dm"
+#include "tff_modular\modules\uplink_item\code\categories\explosive.dm"
 #include "tff_modular\modules\uplink_item\code\categories\stealthy_weapons.dm"
 #include "tff_modular\modules\vending\vending.dm"
 #include "tff_modular\modules\vending\vends\autodrobe.dm"
