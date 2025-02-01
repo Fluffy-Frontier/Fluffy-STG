@@ -298,11 +298,27 @@ const Department = (props: { department: string } & PropsWithChildren) => {
   const className = `PreferencesMenu__Jobs__departments--${name}`;
 
   return (
+<<<<<<< HEAD:tgui/packages/tgui/interfaces/PreferencesMenu/JobsPage.tsx
     <ServerPreferencesFetcher
       render={(data) => {
         if (!data) {
           return null;
         }
+=======
+    <Box>
+      {/* <Stack vertical fill> // NOVA EDIT REMOVAL - For the alt titles dropdowns to not be screwed up */}
+      {jobsForDepartment.map(([name, job]) => {
+        return (
+          <JobRow
+            className={classes([className, name === department.head && 'head'])}
+            key={name}
+            job={job}
+            name={name}
+          />
+        );
+      })}
+      {/* </Stack> // NOVA EDIT REMOVAL */}
+>>>>>>> aedcd1fe6c1 (Fixes jobs page expanding infinitely (#4830)):tgui/packages/tgui/interfaces/PreferencesMenu/CharacterPreferences/JobsPage.tsx
 
         const { departments, jobs } = data.jobs;
         const department = departments[name];
