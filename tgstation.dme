@@ -9006,6 +9006,7 @@
 #include "tff_modular\modules\redsec_reskins\code\beret_reskin.dm"
 #include "tff_modular\modules\redsec_reskins\code\hood_reskin.dm"
 #include "tff_modular\modules\redsec_reskins\code\redsec.dm"
+#include "tff_modular\modules\security-rearm\code\baton.dm"
 #include "tff_modular\modules\security-rearm\code\outfit.dm"
 #include "tff_modular\modules\security-rearm\code\security_beacon.dm"
 #include "tff_modular\modules\security-rearm\code\wespe.dm"

@@ -72,6 +72,7 @@
 					/obj/item/clothing/glasses/hud/security/sunglasses/peacekeeper = 3,
 					/obj/item/clothing/glasses/hud/security/sunglasses/peacekeeper/armadyne = 3,
 					/obj/item/storage/box/holobadge = 1,
+					/obj/item/berdish_kit = 3,
 	)
 	light_color = "#abadcc"
 	vend_reply = "Beat these scumbags!"
