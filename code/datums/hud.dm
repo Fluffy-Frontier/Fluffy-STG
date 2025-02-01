@@ -19,6 +19,7 @@ GLOBAL_LIST_INIT(huds, list(
 	DATA_HUD_FAN = new /datum/atom_hud/data/human/fan_hud(),
 	DATA_HUD_MALF_APC = new /datum/atom_hud/data/malf_apc(),
 	DATA_HUD_PERMIT = new/datum/atom_hud/data/human/permit(), // NOVA EDIT ADDITION
+	DATA_HUD_MARKER = new/datum/atom_hud/marker_detector(), // FLUFFY FRONTIER ADDITION DS13
 ))
 
 GLOBAL_LIST_INIT(trait_to_hud, list(

@@ -1,0 +1,1 @@
+#define HUD_METER_PIXEL_WIDTH 181
