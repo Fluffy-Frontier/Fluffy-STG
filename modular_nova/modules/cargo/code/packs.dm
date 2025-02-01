@@ -238,7 +238,7 @@
 /datum/supply_pack/engineering/modsuit_atmospherics
 	name = "Atmospherics MODsuit Crate"
 	desc = "Contains a single MODsuit, built to standard atmospherics specifications."
-	access = ACCESS_ENGINE_EQUIP
+	access = ACCESS_ATMOSPHERICS // FLUFFY FRONTIER EDIT. ORIGINAL - access = ACCESS_ENGINE_EQUIP
 	contains = list(/obj/item/mod/control/pre_equipped/atmospheric)
 	cost = CARGO_CRATE_VALUE * 16
 	crate_name = "atmospherics MODsuit crate"
